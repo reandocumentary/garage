@@ -1,0 +1,91 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="top_menu_brush" Color="#087717" />
+    <SolidColorBrush x:Key="_system_bg_color" Color="#FFDEDEDE" />
+    <SolidColorBrush x:Key="_btn_color" Color="#FF31577E" />
+
+    <SolidColorBrush x:Key="title_brush" Color="#FF31577E" />
+    <SolidColorBrush x:Key="input_brush" Color="#0000A5" />
+
+    <SolidColorBrush x:Key="Hint_brush" Color="#FF0000" />
+    <SolidColorBrush x:Key="gb_Context_brush" Color="#FFE4C4" />
+
+
+
+    <FontFamily x:Key="_top_menu_font">Rockwell</FontFamily>
+    <FontFamily x:Key="_Kh_font">Khmer OS Siemreap</FontFamily>
+
+    <Style x:Key="top_menu" TargetType="MenuItem">
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="FontFamily" Value="Rockwell" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="#FFDEDEDE" />
+
+
+        <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+    </Style>
+
+    <Style x:Key="_ContextMenu" TargetType="MenuItem">
+        <Setter Property="FontSize" Value="18" />
+        <Setter Property="FontFamily" Value="Rockwell" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="Foreground" Value="#FFDEDEDE" />
+        <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+
+    </Style>
+
+
+
+    <Style x:Key="sub_menu" TargetType="MenuItem">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontFamily" Value="Rockwell" />
+        <Setter Property="Foreground" Value="#FFDEDEDE" />
+        <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+        <Style.Triggers>
+
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="#0264AD" />
+                <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+            </Trigger>
+        </Style.Triggers>
+
+
+    </Style>
+
+    <Style x:Key="submitButton" TargetType="Button">
+        <Setter Property="FontSize" Value="55" />
+        <Setter Property="Foreground" Value="#1569C7" />
+    </Style>
+
+    <Style x:Key="_Context" TargetType="{x:Type ContextMenu}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Grid.IsSharedSizeScope" Value="true" />
+        <Setter Property="HasDropShadow" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ContextMenu}">
+                    <Border
+                        x:Name="Border"
+                        Background="{StaticResource gb_Context_brush}"
+                        BorderThickness="1">
+                        <Border.BorderBrush>
+                            <SolidColorBrush Color="#1569C7" />
+                        </Border.BorderBrush>
+                        <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Cycle" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HasDropShadow" Value="true">
+                            <Setter TargetName="Border" Property="Padding" Value="0,3,0,3" />
+                            <Setter TargetName="Border" Property="CornerRadius" Value="5" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>
