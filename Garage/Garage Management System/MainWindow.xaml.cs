@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Garage_Management_System.FrmSystem;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,5 +25,19 @@ namespace Garage_Management_System
         {
             InitializeComponent();
         }
+
+        void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+            }
+            catch { }
+        }
+
+        private void _About_Click(object sender, RoutedEventArgs e)
+        {
+            frame.NavigationService.Navigate(new AboutMe());
+        }
+
     }
 }

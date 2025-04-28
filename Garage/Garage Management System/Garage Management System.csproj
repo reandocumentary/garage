@@ -36,6 +36,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>garage.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialDesignColors, Version=2.0.4.3, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.2.0.4\lib\net452\MaterialDesignColors.dll</HintPath>
@@ -63,6 +66,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="FrmSystem\AboutMe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="FrmSystem\FrmLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -74,6 +81,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Class\arr_data_issue.cs" />
+    <Compile Include="Class\function_customize.cs" />
+    <Compile Include="Class\parasql.cs" />
+    <Compile Include="Class\sqlexcute.cs" />
+    <Compile Include="Class\variables.cs" />
+    <Compile Include="Class\xmls.cs" />
+    <Compile Include="Class\xml_security.cs" />
+    <Compile Include="FrmSystem\AboutMe.xaml.cs">
+      <DependentUpon>AboutMe.xaml</DependentUpon>
     </Compile>
     <Compile Include="FrmSystem\FrmLogin.xaml.cs">
       <DependentUpon>FrmLogin.xaml</DependentUpon>
@@ -122,7 +139,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="garage.ico" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\garage.ico" />
   </ItemGroup>

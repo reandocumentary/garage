@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/workshop.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("garage.ico")]
 
 

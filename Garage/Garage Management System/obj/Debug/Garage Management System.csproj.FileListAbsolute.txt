@@ -26,3 +26,5 @@ C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Manageme
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CopyComplete
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.exe
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.g.cs
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.baml

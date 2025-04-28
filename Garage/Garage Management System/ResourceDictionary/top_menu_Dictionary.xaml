@@ -11,6 +11,8 @@
     <SolidColorBrush x:Key="gb_Context_brush" Color="#FFE4C4" />
 
 
+    <SolidColorBrush x:Key="top_menu_color" Color="#FF31577E" />
+    <SolidColorBrush x:Key="sub_top_menu_color" Color="#FF31577E" />
 
     <FontFamily x:Key="_top_menu_font">Rockwell</FontFamily>
     <FontFamily x:Key="_Kh_font">Khmer OS Siemreap</FontFamily>
@@ -20,10 +22,10 @@
         <Setter Property="FontFamily" Value="Rockwell" />
         <Setter Property="HorizontalAlignment" Value="Left" />
         <Setter Property="VerticalAlignment" Value="Center" />
-        <Setter Property="Foreground" Value="#FFDEDEDE" />
+        <Setter Property="Foreground" Value="#FFE4C4" />
 
 
-        <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+        <Setter Property="Background" Value="{StaticResource top_menu_color}" />
     </Style>
 
     <Style x:Key="_ContextMenu" TargetType="MenuItem">
@@ -37,17 +39,16 @@
     </Style>
 
 
-
     <Style x:Key="sub_menu" TargetType="MenuItem">
-        <Setter Property="FontSize" Value="14" />
+        <Setter Property="FontSize" Value="15" />
         <Setter Property="FontFamily" Value="Rockwell" />
         <Setter Property="Foreground" Value="#FFDEDEDE" />
-        <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+        <Setter Property="Background" Value="{StaticResource sub_top_menu_color}" />
         <Style.Triggers>
 
             <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Foreground" Value="#0264AD" />
-                <Setter Property="Background" Value="{StaticResource top_menu_brush}" />
+                <Setter Property="Foreground" Value="OrangeRed" />
+                <Setter Property="Background" Value="{StaticResource sub_top_menu_color}" />
             </Trigger>
         </Style.Triggers>
 
