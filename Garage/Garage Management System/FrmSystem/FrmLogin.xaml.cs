@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Windows;
+using Garage_Management_System.FrmSystem;
+using Garage_Management_System.Garage;
 
 namespace Garage_Management_System.FrmSystem
 {
@@ -19,10 +21,13 @@ namespace Garage_Management_System.FrmSystem
             {
                 // Start : Checking Connection to database 
                 string baseDir = Environment.CurrentDirectory;
-                xml.ReadXmlLogIn(baseDir + "\\sys.xml");
-                variables.Pcon.ConnectionString = variables.PConnectionString;
-                variables.Pcon.Open();
-                variables.Pcon.Close();
+                if (variables.Pcon.State == ConnectionState.Closed)
+                {
+                    xml.ReadXmlLogIn(baseDir + "\\sys.xml");
+                    variables.Pcon.ConnectionString = variables.PConnectionString;
+                    variables.Pcon.Open();
+                    variables.Pcon.Close();
+                }
 
                 // End : Checking Connection to database 
                 //txtUserlogin.Text = "bongmap@gmail.com";

@@ -1,4 +1,5 @@
 ﻿using Garage_Management_System.FrmSystem;
+using Garage_Management_System.Garage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,6 +38,23 @@ namespace Garage_Management_System
         private void _About_Click(object sender, RoutedEventArgs e)
         {
             frame.NavigationService.Navigate(new AboutMe());
+        }
+
+        private void Register_product(object sender, RoutedEventArgs e)
+        {
+            frame.NavigationService.Navigate(new Garage.FrmProducts());
+        }
+
+        private void _exit_app_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void _logout_app_Click(object sender, RoutedEventArgs e)
+        {
+            FrmLogin login = new FrmLogin();
+            this.Hide();
+            login.ShowDialog();
         }
 
     }

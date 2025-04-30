@@ -74,6 +74,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Garage\FrmCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garage\FrmProducts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,6 +102,12 @@
     </Compile>
     <Compile Include="FrmSystem\FrmLogin.xaml.cs">
       <DependentUpon>FrmLogin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garage\FrmCustomer.xaml.cs">
+      <DependentUpon>FrmCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garage\FrmProducts.xaml.cs">
+      <DependentUpon>FrmProducts.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

@@ -8,16 +8,20 @@ C:\Users\CODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignT
 C:\Users\CODER\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.AssemblyReference.cache
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.SuggestedBindingRedirects.cache
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.baml
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\ButtonDictionary.baml
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\TextboxThemDictionary.baml
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\top_menu_Dictionary.baml
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.g.cs
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.g.cs
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.g.cs
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\MainWindow.g.cs
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\App.g.cs
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.cache
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.lref
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\App.baml
-C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.baml
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.baml
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.baml
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\MainWindow.baml
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.g.resources
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage_Management_System.Properties.Resources.resources
@@ -26,5 +30,5 @@ C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Manageme
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CopyComplete
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.exe
 C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
-C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.g.cs
-C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.baml
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.g.cs
+C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.baml

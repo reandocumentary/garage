@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\CODER\Desktop\Garage\Garage Management System\App.xaml
-6-576549348
+8-1143591656
 
-15-1069716349
+17714316279
 15-118921303
-FrmSystem\AboutMe.xaml;FrmSystem\FrmLogin.xaml;MainWindow.xaml;ResourceDictionary\ButtonDictionary.xaml;ResourceDictionary\TextboxThemDictionary.xaml;ResourceDictionary\top_menu_Dictionary.xaml;
+FrmSystem\AboutMe.xaml;FrmSystem\FrmLogin.xaml;Garage\FrmCustomer.xaml;Garage\FrmProducts.xaml;MainWindow.xaml;ResourceDictionary\ButtonDictionary.xaml;ResourceDictionary\TextboxThemDictionary.xaml;ResourceDictionary\top_menu_Dictionary.xaml;
 
 True
 

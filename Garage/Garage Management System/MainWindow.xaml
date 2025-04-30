@@ -58,6 +58,7 @@
                             <MenuItem
                                 x:Name="_logout_app"
                                 Header="_Log out"
+                                Click="_logout_app_Click"
                                 Style="{StaticResource sub_menu}"
                                 Visibility="Visible">
                                 <MenuItem.Icon>
@@ -68,6 +69,7 @@
                             <MenuItem
                                 x:Name="_exit_app"
                                 Header="_Exit"
+                                Click="_exit_app_Click"
                                 Style="{StaticResource sub_menu}">
                                 <MenuItem.Icon>
                                     <materialDesign:PackIcon Kind="Close" />
@@ -135,6 +137,7 @@
                             <MenuItem
                                 x:Name="_create_product"
                                 Header="Register Product"
+                                Click="Register_product"
                                 Style="{StaticResource sub_menu}" />
 
                         </MenuItem>
@@ -196,6 +199,7 @@
                 <!--  Show pages in main form  -->
                 <Frame
                     x:Name="frame"
+                    Margin="50,10,0,0"
                     HorizontalAlignment="Left"
                     NavigationUIVisibility="Hidden" />
 

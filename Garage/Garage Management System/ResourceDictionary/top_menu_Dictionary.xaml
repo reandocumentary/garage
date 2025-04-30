@@ -15,7 +15,11 @@
     <SolidColorBrush x:Key="sub_top_menu_color" Color="#FF31577E" />
 
     <FontFamily x:Key="_top_menu_font">Rockwell</FontFamily>
+    <FontFamily x:Key="_text_font">Rockwell</FontFamily>
     <FontFamily x:Key="_Kh_font">Khmer OS Siemreap</FontFamily>
+
+
+    <SolidColorBrush x:Key="txt_color" Color="#FF31577E" />
 
     <Style x:Key="top_menu" TargetType="MenuItem">
         <Setter Property="FontSize" Value="18" />
