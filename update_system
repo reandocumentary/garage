@@ -1,1 +1,6 @@
-
+{"garage_tbl_plate_type":[
+  { "type_id":"0001", "titile":"កម្ពូជា", "inactive":"0", "inputter":"IT.SYSTEM" , "inputdate":"GETDATE()"},
+  { "type_id":"0002", "titile":"PHNOM PENH", "inactive":"0", "inputter":"IT.SYSTEM" , "inputdate":"GETDATE()"},
+  { "type_id":"0003", "titile":"KAMPOT", "inactive":"0", "inputter":"IT.SYSTEM" , "inputdate":"GETDATE()"},
+  { "type_id":"0003", "titile":"រដ្ឋ", "inactive":"0", "inputter":"IT.SYSTEM" , "inputdate":"GETDATE()"}
+]}
