@@ -171,16 +171,27 @@
                             x:Name="_About"
                             Margin="5,5,5,5"
                             Header="_About"
-                            Click="_About_Click"
                             Style="{StaticResource top_menu}">
 
                             <MenuItem.Icon>
                                 <materialDesign:PackIcon Kind="About" />
                             </MenuItem.Icon>
+
                             <MenuItem
                                 x:Name="_about_me"
                                 Header="About me"
-                                Style="{StaticResource sub_menu}" />
+                                 Click="_About_Click"
+                                Style="{StaticResource sub_menu}" >
+                                
+                            </MenuItem>
+
+                            <MenuItem
+                                x:Name="FrmSystemUpdate"
+                                Header="System Update"
+                                 Click="RFrmSystemUpdate_Click"
+                                Style="{StaticResource sub_menu}" >
+
+                            </MenuItem>
 
                         </MenuItem>
                     </Menu>

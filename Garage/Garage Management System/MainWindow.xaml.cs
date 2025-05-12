@@ -34,7 +34,11 @@ namespace Garage_Management_System
             }
             catch { }
         }
+        private void RFrmSystemUpdate_Click(object sender, RoutedEventArgs e)
+        {
 
+            frame.NavigationService.Navigate(new FrmSystemUpdate());
+        }
         private void _About_Click(object sender, RoutedEventArgs e)
         {
             frame.NavigationService.Navigate(new AboutMe());

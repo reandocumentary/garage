@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\CODER\Desktop\Garage\Garage Management System\obj\Debug\
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\
 Garage_Management_System
 none
 false
 DEBUG;TRACE
-C:\Users\CODER\Desktop\Garage\Garage Management System\App.xaml
-8-1143591656
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\App.xaml
+10-1343698334
 
-17714316279
-15-118921303
-FrmSystem\AboutMe.xaml;FrmSystem\FrmLogin.xaml;Garage\FrmCustomer.xaml;Garage\FrmProducts.xaml;MainWindow.xaml;ResourceDictionary\ButtonDictionary.xaml;ResourceDictionary\TextboxThemDictionary.xaml;ResourceDictionary\top_menu_Dictionary.xaml;
+20464163895
+16-1048042034
+FrmSystem\AboutMe.xaml;FrmSystem\FrmLogin.xaml;FrmSystem\FrmSystemUpdate.xaml;Garage\FrmCustomer.xaml;Garage\FrmPlateNumber.xaml;Garage\FrmProducts.xaml;MainWindow.xaml;ResourceDictionary\ButtonDictionary.xaml;ResourceDictionary\TextboxThemDictionary.xaml;ResourceDictionary\top_menu_Dictionary.xaml;
 
 True
 

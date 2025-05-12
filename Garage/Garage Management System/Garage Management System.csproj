@@ -46,6 +46,9 @@
     <Reference Include="MaterialDesignThemes.Wpf, Version=4.3.0.3, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignThemes.4.3.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -74,7 +77,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="FrmSystem\FrmSystemUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Garage\FrmCustomer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garage\FrmPlateNumber.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -92,6 +103,7 @@
     </Compile>
     <Compile Include="Class\arr_data_issue.cs" />
     <Compile Include="Class\function_customize.cs" />
+    <Compile Include="Class\GithubClient.cs" />
     <Compile Include="Class\parasql.cs" />
     <Compile Include="Class\sqlexcute.cs" />
     <Compile Include="Class\variables.cs" />
@@ -103,8 +115,14 @@
     <Compile Include="FrmSystem\FrmLogin.xaml.cs">
       <DependentUpon>FrmLogin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FrmSystem\FrmSystemUpdate.xaml.cs">
+      <DependentUpon>FrmSystemUpdate.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Garage\FrmCustomer.xaml.cs">
       <DependentUpon>FrmCustomer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garage\FrmPlateNumber.xaml.cs">
+      <DependentUpon>FrmPlateNumber.xaml</DependentUpon>
     </Compile>
     <Compile Include="Garage\FrmProducts.xaml.cs">
       <DependentUpon>FrmProducts.xaml</DependentUpon>
