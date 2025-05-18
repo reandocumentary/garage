@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\App.xaml
-10-1343698334
+11-1691188069
 
-19-1748714783
+20-384258300
 16-1048042034
-FrmSystem\AboutMe.xaml;FrmSystem\FrmLogin.xaml;FrmSystem\FrmSystemUpdate.xaml;Garage\FrmCustomer.xaml;Garage\FrmPlateNumber.xaml;Garage\FrmProducts.xaml;MainWindow.xaml;ResourceDictionary\ButtonDictionary.xaml;ResourceDictionary\TextboxThemDictionary.xaml;ResourceDictionary\top_menu_Dictionary.xaml;
+FrmSystem\AboutMe.xaml;FrmSystem\FrmLogin.xaml;FrmSystem\FrmSystemUpdate.xaml;Garage\FrmCustomer.xaml;Garage\FrmPlateNumber.xaml;Garage\FrmProducts.xaml;Garage\FrmSearchPlateNumber.xaml;MainWindow.xaml;ResourceDictionary\ButtonDictionary.xaml;ResourceDictionary\TextboxThemDictionary.xaml;ResourceDictionary\top_menu_Dictionary.xaml;
 
 False
 

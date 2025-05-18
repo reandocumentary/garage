@@ -1,4 +1,5 @@
-﻿using Garage_Management_System.FrmSystem;
+﻿using Garage_Management_System.Class;
+using Garage_Management_System.FrmSystem;
 using Garage_Management_System.Garage;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,7 @@ namespace Garage_Management_System
         {
             try
             {
+                this.Title = variables.vTittle;
             }
             catch { }
         }
@@ -44,9 +46,19 @@ namespace Garage_Management_System
             frame.NavigationService.Navigate(new AboutMe());
         }
 
-        private void Register_product(object sender, RoutedEventArgs e)
+        private void Register_product_Click(object sender, RoutedEventArgs e)
         {
             frame.NavigationService.Navigate(new Garage.FrmProducts());
+        }
+
+        private void Register_customer_Click(object sender, RoutedEventArgs e)
+        {
+            frame.NavigationService.Navigate(new Garage.FrmCustomer());
+        }
+
+        private void Register_PlateNumber_Click(object sender, RoutedEventArgs e)
+        {
+            frame.NavigationService.Navigate(new Garage.FrmPlateNumber());
         }
 
         private void _exit_app_Click(object sender, RoutedEventArgs e)

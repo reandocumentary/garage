@@ -38,6 +38,26 @@
                             </MenuItem.Icon>
 
                             <MenuItem
+                                x:Name="RegisterCustomer"
+                                Header="Register Customer"
+                                Click="Register_customer_Click"
+                                Style="{StaticResource sub_menu}">
+                                <MenuItem.Icon>
+                                    <materialDesign:PackIcon Kind="TicketUser" />
+                                </MenuItem.Icon>
+                            </MenuItem>
+
+                            <MenuItem
+                                x:Name="RegisterPlateNumber"
+                                Header="Plate Number"
+                                Click="Register_PlateNumber_Click"
+                                Style="{StaticResource sub_menu}">
+                                <MenuItem.Icon>
+                                    <materialDesign:PackIcon Kind="TicketUser" />
+                                </MenuItem.Icon>
+                            </MenuItem>
+
+                            <MenuItem
                                 x:Name="_user_profile"
                                 Header="_User Profile"
                                 Style="{StaticResource sub_menu}">
@@ -137,7 +157,7 @@
                             <MenuItem
                                 x:Name="_create_product"
                                 Header="Register Product"
-                                Click="Register_product"
+                                Click="Register_product_Click"
                                 Style="{StaticResource sub_menu}" />
 
                         </MenuItem>

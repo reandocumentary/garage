@@ -10,6 +10,7 @@
     <SolidColorBrush x:Key="Hint_brush" Color="#FF0000" />
     <SolidColorBrush x:Key="gb_Context_brush" Color="#FFE4C4" />
 
+    <SolidColorBrush x:Key="btnSearchColor" Color="#FF808080" />
 
     <SolidColorBrush x:Key="top_menu_color" Color="#FF31577E" />
     <SolidColorBrush x:Key="sub_top_menu_color" Color="#FF31577E" />

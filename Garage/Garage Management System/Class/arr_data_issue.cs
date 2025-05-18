@@ -14,28 +14,13 @@ namespace Garage_Management_System.Class
         public string Issue { get; set; }
         public string Responder { get; set; }
     }
-
-    class arr_draft_issue
+    class arr_plateNumber
     {
-        public string ID { get; set; }
-        public string Category { get; set; }
-        public string SubCategory { get; set; }
-        public string Issue { get; set; }
-    }
-
-    class arr_Category_issue
-    {
-        public string ID { get; set; }
-        public string Category { get; set; }
-        public string Disable { get; set; }
-    }
-
-    class arr_SubCategory_issue
-    {
-        public string ID { get; set; }
-        public string Name { get; set; }
-        public string Category { get; set; }
-        public string Disable { get; set; }
+        public string Plate_ID { get; set; }
+        public string Branchcode { get; set; }
+        public string Type_ID { get; set; }
+        public string Titile { get; set; }
+        public string inputter { get; set; }
     }
 
 

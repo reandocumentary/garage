@@ -3,12 +3,12 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Garage_Management_System.Garage"
       Title="FrmPlateNumber"
        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        d:DesignHeight="600"
+        d:DesignHeight="555"
         d:DesignWidth="580"
         Background="{x:Null}"
+      Loaded="FrmPlateNumber_Loaded"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         mc:Ignorable="d">
 
@@ -23,7 +23,7 @@
             <materialDesign:DialogHost x:Name="frmregister" CloseOnClickAway="True">
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="600" />
+                        <RowDefinition Height="500" />
                     </Grid.RowDefinitions>
 
                     <Grid.ColumnDefinitions>
@@ -61,7 +61,7 @@
                                 Foreground="{StaticResource txt_color}"
                                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
                             <TextBox
-                                x:Name="txttitle"
+                                x:Name="txtPlateNumber"
                                 Width="300"
                                 Margin="25,10,25.4,0"
                                 materialDesign:HintAssist.Foreground="{StaticResource Hint_brush}"
@@ -79,7 +79,7 @@
                                 materialDesign:HintAssist.Foreground="{StaticResource Hint_brush}"
                                 materialDesign:HintAssist.Hint="Plate Type"
                                 BorderBrush="{StaticResource input_brush}"
-                                FontFamily="{StaticResource _text_font}"
+                                FontFamily="{StaticResource _Kh_font}"
                                 FontSize="14"
                                 Foreground="{StaticResource txt_color}"
                                 IsEditable="True"
@@ -97,7 +97,7 @@
                                 Foreground="{StaticResource txt_color}"
                                 IsEditable="True"
                                 IsTextSearchEnabled="True"
-                                Style="{StaticResource MaterialDesignFloatingHintComboBox}" />
+                                Style="{StaticResource MaterialDesignFloatingHintComboBox}" SelectionChanged="cboInactive_SelectionChanged" />
                            
 
                             <TextBox
@@ -126,21 +126,24 @@
                         HorizontalAlignment="Left">
                         <StackPanel
                             Width="180"
-                            Margin="0,40,0,0"
+                            Margin="0,15,0,0"
                             HorizontalAlignment="Right">
 
                             <materialDesign:PopupBox
                                 Height="25"
-                                Margin="0,5,5,0"
+                                Margin="5,5,5,0"
                                 HorizontalAlignment="Right"
                                 PlacementMode="BottomAndAlignRightEdges"
+                 
                                 StaysOpen="False">
                                 <StackPanel>
                                     <MenuItem
                                         x:Name="View_draft"
-                                        FontFamily="{StaticResource _Kh_font}"
+                                        FontFamily="{StaticResource _top_menu_font}"
                                         FontSize="13"
-                                        Header="បញ្ជីរក្សាទុក">
+                                        Click="View_search_Click"
+                                        Header="Plate Number">
+                                        
                                         <MenuItem.Icon>
                                             <materialDesign:PackIcon Kind="Paper" />
                                         </MenuItem.Icon>
@@ -165,7 +168,7 @@
                                 x:Name="btnNew"
                                 Width="150"
                                 Height="45"
-                                Margin="10,30,0,0"
+                                Margin="10,55,0,0"
                                 HorizontalAlignment="Left"
                                 materialDesign:ButtonAssist.CornerRadius="10"
                                 materialDesign:ShadowAssist.ShadowDepth="Depth0"
@@ -174,7 +177,7 @@
                                 FontSize="14"
                                 Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="btnNew_Click" />
                             <Button
-                                x:Name="btnsave"
+                                x:Name="btnSave"
                                 Width="150"
                                 Height="45"
                                 Margin="10,10,0,0"

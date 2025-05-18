@@ -37,12 +37,15 @@ C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\Garage Manage
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\Garage Management System.pdb
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignColors.dll
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.dll
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignColors.pdb
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.xml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.AssemblyReference.cache
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.SuggestedBindingRedirects.cache
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.baml
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\ButtonDictionary.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\ResourceDictionary\TextboxThemDictionary.baml
@@ -51,7 +54,9 @@ C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\Abo
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.g.cs
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmSystemUpdate.g.cs
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.g.cs
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.g.cs
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.g.cs
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmSearchPlateNumber.g.cs
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\MainWindow.g.cs
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\App.g.cs
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.cache
@@ -60,6 +65,7 @@ C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\App.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\FrmSystem\FrmSystemUpdate.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.baml
+C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmSearchPlateNumber.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\MainWindow.baml
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.g.resources
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage_Management_System.Properties.Resources.resources
@@ -68,7 +74,3 @@ C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Manage
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CopyComplete
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.exe
 C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
-C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.dll
-C:\Users\REAN-iT\Desktop\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.xml
-C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.g.cs
-C:\Users\REAN-iT\Desktop\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.baml
