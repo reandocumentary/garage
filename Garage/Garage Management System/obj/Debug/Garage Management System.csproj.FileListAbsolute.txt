@@ -116,3 +116,45 @@ C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Mana
 C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CopyComplete
 C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.exe
 C:\Users\JOINCODER\Desktop\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\Garage Management System.exe.config
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\Garage Management System.exe
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\Garage Management System.pdb
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\MaterialDesignColors.dll
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.dll
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\MaterialDesignColors.pdb
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\_Github\garage-wpf\Garage\Garage Management System\bin\Debug\Newtonsoft.Json.xml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.AssemblyReference.cache
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.exe.config
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmSearchPlateNumber.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\ResourceDictionary\ButtonDictionary.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\ResourceDictionary\TextboxThemDictionary.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\ResourceDictionary\top_menu_Dictionary.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\FrmSystem\FrmLogin.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\FrmSystem\FrmSystemUpdate.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmCustomer.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmPlateNumber.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmProducts.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage\FrmSearchPlateNumber.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\MainWindow.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\App.g.cs
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.cache
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System_MarkupCompile.lref
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\App.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\FrmSystem\AboutMe.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\FrmSystem\FrmSystemUpdate.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\MainWindow.baml
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.g.resources
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage_Management_System.Properties.Resources.resources
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.GenerateResource.cache
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.csproj.CoreCompileInputs.cache
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage M.6C962D69.Up2Date
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.exe
+D:\_Github\garage-wpf\Garage\Garage Management System\obj\Debug\Garage Management System.pdb
